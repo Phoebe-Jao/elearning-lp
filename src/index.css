@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=BBH+Sans+Hegarty&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Roboto", sans-serif;
+  --font-logo: "BBH Sans Hegarty", sans-serif;
+  --font-heading: "BBH Sans Bogle", sans-serif;
+  
+  --color-primary: #fed55f;
+  --color-accent: #7fe9df;
+
+  --color-gray-50: #f4f4f4;
+  --color-yellow-50: #fff1cc;
+  --color-orange-300: #ff984a;
+  --color-orange-500: #ff7347;
+  --color-blue-500: #5ac6bf;
+  --color-blue-700: #2c8ca9;
+  --color-blue-900: #1b2737;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
