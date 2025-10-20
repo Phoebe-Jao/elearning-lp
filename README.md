@@ -1,4 +1,4 @@
-# 📝 Signup Form – React + Tailwind CSS
+# 📝 E-Learning Landing Page – React + Tailwind CSS
 
 A landing page built with **React JS** and **Tailwind CSS**, as well as **Framer Motion** for certain animations. This project focuses on responsive layouts and animations with Framer Motion. Enlite Academy is a fictional project inspired by existing digital learning institutions. It is made for practice/portfolio purposes only.
 
@@ -6,9 +6,9 @@ A landing page built with **React JS** and **Tailwind CSS**, as well as **Framer
 
 ## 📸 Screenshot
 
-![Screenshot]
+![Screenshot](https://i.imgur.com/fw5r6EZ.jpeg)
 
-[Preview]
+[Preview](https://enlite-academy-lp.netlify.app/)
 
 ---
 
