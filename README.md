@@ -6,7 +6,7 @@ A landing page built with **React JS** and **Tailwind CSS**, as well as **Framer
 
 ## 📸 Screenshot
 
-![Screenshot](https://i.imgur.com/fw5r6EZ.jpeg)
+![Screenshot](https://i.imgur.com/umHazlu.jpeg)
 
 [Preview](https://enlite-academy-lp.netlify.app/)
 
