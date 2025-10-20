@@ -11,7 +11,7 @@ const HeadingBlock = ({ title, text="", type="heading" }) => {
       hdClasses = 'text-5xl text-uppercase py-15 max-sm:py-10';
       break;
     case 'info':
-      hdClasses = 'text-2xl mb-2 max-sm:text-4xl';
+      hdClasses = 'text-4xl mb-2';
       subTtlClasses = 'font-display text-base max-sm:text-[0.9rem]';
       break;
     default:
