@@ -24,7 +24,7 @@ function App() {
             <HeadingBlock type="hero" title="Grow Your Skills" text="Whether you're just starting out or picking up something new, Enlite helps you learn with clarity, confidence, and community." />
             <MotionIcon
               icon={faAngleDoubleDown} 
-              className="absolute bottom-[-10rem] right-0" 
+              className="absolute bottom-[-10rem] right-0 text-blue-900" 
               style={{ width: '3rem', height: '3rem' }}
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
