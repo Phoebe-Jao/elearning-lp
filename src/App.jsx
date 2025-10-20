@@ -31,7 +31,7 @@ function App() {
         }
         right={
           <div>
-            <img src={kvImg} alt="Grow your skills" className="w-full min-h-[34rem] object-cover" />
+            <img src={kvImg} alt="Grow your skills" className="w-full min-h-[34rem] max-sm:min-h-[17rem] object-cover" />
           </div>
         }
         className="mt-[5.25rem]"
@@ -74,13 +74,7 @@ function App() {
       />
       <Layout
         left={
-          <>
-            <HeadingBlock type="info" title="Get in touch" text="Send your inquiries here or contact us below." />
-            <ul className="text-right">
-              <li>Email</li>
-              <li>Phone</li>
-            </ul>
-          </>
+          <HeadingBlock type="info" title="Get in touch" text="Send your inquiries here using the form. Our team will get back to you as soon as possible." />
         }
         right={
           <Form />

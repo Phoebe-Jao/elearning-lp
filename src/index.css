@@ -6,8 +6,8 @@
   --font-logo: "BBH Sans Hegarty", sans-serif;
   --font-heading: "BBH Sans Bogle", sans-serif;
   
-  --color-primary: #fed55f;
-  --color-accent: #7fe9df;
+  --color-primary: #7fe9df;
+  --color-accent: #fed55f;
 
   --color-gray-50: #f4f4f4;
   --color-yellow-50: #fff1cc;
@@ -16,6 +16,14 @@
   --color-blue-500: #5ac6bf;
   --color-blue-700: #2c8ca9;
   --color-blue-900: #1b2737;
+}
+
+@utility form-input {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--color-blue-900);
+  border: 1px solid var(--color-blue-900);
+  padding: 0.3rem 0.8rem;
 }
 
 body {

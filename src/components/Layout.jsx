@@ -1,13 +1,19 @@
+import ScrollFadeInUp from "./ScrollFadeInUp";
+
 const Layout = ({ left, right, className="" }) => {
   return (
     <div className={`flex w-full h-full ${className} max-sm:flex-col`}>
-      <div className="w-1/2 py-11 bg-accent max-sm:w-full">
+      <div className="w-1/2 py-11 max-sm:py-8 bg-primary max-sm:w-full">
         <div className="w-full max-w-[56%] mx-auto relative">
-          { left }
+          <ScrollFadeInUp>
+            { left }
+          </ScrollFadeInUp>
         </div>
       </div>
       <div className="w-1/2 bg-gray-50 relative max-sm:w-full">
-        { right }
+        <ScrollFadeInUp>
+          { right }
+        </ScrollFadeInUp>
       </div>
     </div>
   )
