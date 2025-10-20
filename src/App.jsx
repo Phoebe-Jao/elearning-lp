@@ -4,6 +4,9 @@ import ImageBlock from "./components/ImageBlock"
 import Form from "./components/Form"
 import Layout from "./components/Layout"
 import kvImg from "./assets/kv_img.jpg"
+import img01 from "./assets/img-01.jpg"
+import img02 from "./assets/img-02.jpg"
+import img03 from "./assets/img-03.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons"
 import { motion } from "motion/react"
@@ -43,7 +46,7 @@ function App() {
         right={
           <ImageBlock 
             text="<strong>Study at the comfort of your home.</strong> Whether you're starting fresh or scaling up, your journey begins here."
-            image={kvImg}
+            image={img01}
             imageAlt="test"
           />
         }
@@ -55,7 +58,7 @@ function App() {
         right={
           <ImageBlock 
             text="<strong>No fluff.</strong> Dive into structured lessons, track your growth, and learn in a way that feels natural."
-            image={kvImg}
+            image={img02}
             imageAlt="test"
           />
         }
@@ -67,7 +70,7 @@ function App() {
         right={
           <ImageBlock 
             text="<strong>You don't need permission to start — just curiosity.</strong> Take your first step today and see where it leads!"
-            image={kvImg}
+            image={img03}
             imageAlt="test"
           />
         }
