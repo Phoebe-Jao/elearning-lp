@@ -1,4 +1,5 @@
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import HeadingBlock from "./components/HeadingBlock"
 import ImageBlock from "./components/ImageBlock"
 import Form from "./components/Form"
@@ -83,6 +84,7 @@ function App() {
           <Form />
         }
       />
+      <Footer />
     </main>
   )
 }
